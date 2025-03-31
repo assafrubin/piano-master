@@ -8,11 +8,11 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Image
+        {/*<Image
           source={require("../../assets/logo.png")}
           style={styles.logo}
           defaultSource={require("../../assets/logo.png")}
-        />
+        />*/}
         <Text style={styles.title}>Music Note Recognition</Text>
         <Text style={styles.subtitle}>Take a photo of sheet music, practice, and get real-time feedback</Text>
       </View>
